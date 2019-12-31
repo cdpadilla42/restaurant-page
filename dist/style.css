@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+Navigation Styling
+
+.nav {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-item {
+  display: block;
+}
