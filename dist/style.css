@@ -30,9 +30,16 @@ li a {
   border: 1px solid transparent;
   border-top-right-radius: .25rem;
   border-top-left-radius: .25rem;
-  background-color: #e83826;
   color: white;
   text-decoration: none;
+}
+
+.selected {
+  background-color: #e83826;
+}
+
+.selected:hover{
+  border: 1px solid #e83826;
 }
 
 li a:hover {

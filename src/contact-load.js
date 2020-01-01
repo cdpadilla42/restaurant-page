@@ -21,6 +21,12 @@ let contactLoad = () => {
   contactContainer.appendChild(p);
 
   display.appendChild(contactContainer);
+
+  // Update Tab display
+  document.querySelector("#contact").classList.add("selected");
+  document.querySelector("#menu").classList.remove("selected");
+  document.querySelector("#home").classList.remove("selected");
+
 };
 
 export { contactLoad };

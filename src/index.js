@@ -6,7 +6,16 @@ let clearDisplay = () => {
 }
 
 console.log("Hello from webpack! How's the weather up there?");
-clearDisplay();
 loadIndex();
 
+let contactBttn = document.querySelector("#contact");
+contactBttn.addEventListener("click", () => {
+  clearDisplay();
+  contactLoad();
+});
 
+let homeBttn = document.querySelector("#home");
+homeBttn.addEventListener("click", () => {
+  clearDisplay();
+  loadIndex();
+});

@@ -15,6 +15,11 @@ let loadIndex = () => {
   display.appendChild(title);
   display.appendChild(img);
   display.appendChild(p);
+
+  document.querySelector("#home").classList.add("selected");
+  document.querySelector("#menu").classList.remove("selected");
+  document.querySelector("#contact").classList.remove("selected");
+
 }
 
 export { loadIndex };
